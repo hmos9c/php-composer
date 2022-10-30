@@ -1,0 +1,27 @@
+{
+    "name": "hmos9c/php-composer",
+    "description": "Belajar Php Composer",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Hmos9c\\PhpComposer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "sanasfebriyan",
+            "email": "sanasfebriyan8@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/sanasfebriyan/belajar-php-composer-hello"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "hmos9c/php-composer-hello": "2.0.0",
+        "monolog/monolog": "2.2.0"
+    }
+}
